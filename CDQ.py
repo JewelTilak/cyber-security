@@ -83,9 +83,10 @@ if st.session_state.stage == 3:
             st.success("🎉 Mission Complete! You successfully defended the data using the CIA Triad.")
             st.balloons()
             st.write("🏅 Congratulations, Elite Cyber Agent!")
+            st.write("\n✅ You've completed the advanced CIA Triad practical. Great job!")
             st.session_state.stage = 1  # Reset for replay
         else:
             st.error("❌ Wrong answer! The server crashed. Hackers won this round. Try again.")
 
 # Final message
-    st.write("\n✅ You've completed the advanced CIA Triad practical. Great job!")
+    
